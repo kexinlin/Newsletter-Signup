@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const apiKey = "11554315f0c48fed321e96342bd8f3e-us7";
+const apiKey = "d11554315f0c48fed321e96342bd8f3e-us7";
 const audienceId = "b7cea4f47f";
 
 app.get("/", (req, res) => {
